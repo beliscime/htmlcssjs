@@ -47,6 +47,8 @@ p {
 		float: left;
 		/* border: 1px solid green; */
 		background-color: grey; /* #A52A2A; */
+		/* margin: 1px;*/
+		box-sizing: border-box;
 	}
 	.col-lg-1 {
 		width: 8.33%;
@@ -92,7 +94,10 @@ p {
 	.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
 		float: left;
 	/*	border: 1px solid green; */
-    	background-color: grey; /* #A52A2A; */
+        box-sizing: border-box;
+        background-color: grey; /* #A52A2A; */
+    /*    	margin: 1px; */
+
 	}
 	.col-md-1 {
 		width: 8.33%;
