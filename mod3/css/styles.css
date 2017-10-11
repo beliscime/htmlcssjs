@@ -6,7 +6,17 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
-#i1 {
+#i1,#i2,#i3 {
+ width:100%;
+ text-align: center;"
  color: #000000; /* 557c3e; */
- width: 100%;
+}
+
+#my-dropdown-menu {
+	background-color: #8A8AFF;
+}
+
+.menu-box-lg {
+	background:#EEDFA6;
+	height:1100px;
 }
